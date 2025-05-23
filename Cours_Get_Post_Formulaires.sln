@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cours_Get_Post_Formulaires", "Cours_Get_Post_Formulaires\Cours_Get_Post_Formulaires.csproj", "{203C34CC-816A-4EFD-AE7C-7822AA356A31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{EF544AEE-DDE4-4801-B2D5-D431719A3A53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{203C34CC-816A-4EFD-AE7C-7822AA356A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{203C34CC-816A-4EFD-AE7C-7822AA356A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{203C34CC-816A-4EFD-AE7C-7822AA356A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF544AEE-DDE4-4801-B2D5-D431719A3A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF544AEE-DDE4-4801-B2D5-D431719A3A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF544AEE-DDE4-4801-B2D5-D431719A3A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF544AEE-DDE4-4801-B2D5-D431719A3A53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
