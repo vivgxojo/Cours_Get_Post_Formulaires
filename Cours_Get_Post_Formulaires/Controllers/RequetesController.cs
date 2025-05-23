@@ -39,20 +39,20 @@ namespace Cours_Get_Post_Formulaires.Controllers
                 "</b> avec le paramètre <b>" + param + " </b></p>",
                 "text/html", Encoding.UTF8);
         }
-        /*
+        
         [HttpGet]
-        public ActionResult Saisie()
+        public ActionResult Formulaire()
         {
-            return View();
-        }*/
-
+            return View("Saisie");
+        }
+        /*
         [HttpPost]
         public ActionResult Saisie(Etudiant etudiant)
         {
             return View("Affichage", etudiant);
         }
-
-
+        */
+        /*
         [HttpPost]
         public ActionResult Saisie(string numero, string nom, string prenom, string dateNaissance, string telephone)
         {
@@ -65,7 +65,8 @@ namespace Cours_Get_Post_Formulaires.Controllers
 
             return View("Affichage", etudiant);
         }
-
+        */
+        /*
         [HttpPost]
         public ActionResult Saisie()
         {
@@ -78,5 +79,6 @@ namespace Cours_Get_Post_Formulaires.Controllers
 
             return View("Affichage", etudiant);
         }
+        */
     }
 }
