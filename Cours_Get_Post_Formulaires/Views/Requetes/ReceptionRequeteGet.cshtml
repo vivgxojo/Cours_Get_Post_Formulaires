@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Titre = "Page retournée après l'appel à la méthode d'action ReceptionRequeteGet via une requête HTTP Get";
+}
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Titre"]</title>
+</head>
+<body>
+    <h1>@ViewData["Titre"]</h1>
+
+    <h2>voici les paramètres envoyés sur l'url</h2>
+
+    <h4>Nom:@ViewBag.Nom</h4>
+    <h4>Prenom: @ViewBag.Prenom</h4>
+</body>
+
+</html>

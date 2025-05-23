@@ -1,0 +1,42 @@
+﻿@model Cours_Get_Post_Formulaires.Models.Etudiant
+
+@{
+    ViewBag.Titre = "Saisie";
+}
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Titre"]</title>
+</head>
+<body>
+    <form asp-controller="Requetes" asp-action="Saisie" method="post">
+        <div>
+            <label asp-for="Numero"></label>
+            <input asp-for="Numero" />
+        </div>
+        <div>
+            <label asp-for="Nom"></label>
+            <input asp-for="Nom" />
+        </div>
+        <div>
+            <label asp-for="Prenom"></label>
+            <input asp-for="Prenom" />
+        </div>
+        <div>
+            <label asp-for="DateNaissance"></label>
+            <input asp-for="DateNaissance" />
+        </div>
+        <div>
+            <label asp-for="Telephone"></label>
+            <input asp-for="Telephone" />
+        </div>
+        <div>
+            <input type="submit" value="Envoyer" />
+        </div>
+
+    </form >
+</body>
+
+</html>

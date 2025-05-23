@@ -1,0 +1,24 @@
+﻿@model Cours_Get_Post_Formulaires.Models.Etudiant
+
+@{
+    ViewBag.Titre = "Affichage";
+}
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Titre"]</title>
+</head>
+<body>
+    <h2>Les données envoyées sont:</h2>
+    <ul>
+        <li><label asp-for="Numero"></label>: @Model.Numero</li>
+        <li><label asp-for="Nom"></label>: @Model.Nom</li>
+        <li><label asp-for="Prenom"></label>: @Model.Prenom</li>
+        <li><label asp-for="DateNaissance"></label>: @Model.DateNaissance</li>
+        <li><label asp-for="Telephone"></label>: @Model.Telephone</li>
+    </ul>
+</body>
+
+</html>

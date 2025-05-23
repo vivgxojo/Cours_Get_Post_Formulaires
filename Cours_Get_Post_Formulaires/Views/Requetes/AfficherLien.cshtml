@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Titre = "Page qui affiche un lien à cliquer pour montrer le paramètre envoyé à la méthode d'action Lien en HTTP Get";
+    ViewBag.id = 50;
+}
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Titre"]</title>
+</head>
+<body>
+    <h1>@ViewData["Titre"]</h1>
+
+    <a asp-controller="Requetes" asp-action="Lien" asp-route-param="@ViewBag.id">
+        Cliquez sur ce lien pour voir les pramaètres envoyés à la méthode d'action Lien.
+    </a>
+</body>
+
+</html>
